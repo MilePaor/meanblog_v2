@@ -23,7 +23,9 @@
       <span ng-if="vm.post.user"
             ng-bind="vm.post.user.displayName"></span>
       <span ng-if="!vm.post.user">Deleted User</span>
+       <span>u kategoriji {{ vm.post.category }} </span>
     </em>
+    
   </small>
   <p class="lead" ng-bind="vm.post.content"></p>
 </section>
